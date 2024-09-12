@@ -1,0 +1,25 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "eks:DescribeCluster",
+        "eks:ListClusters",
+        "eks:CreateCluster",
+        "eks:UpdateClusterConfig",
+        "eks:DeleteCluster",
+        "eks:DescribeNodegroup",
+        "eks:ListNodegroups",
+        "eks:CreateNodegroup",
+        "eks:UpdateNodegroupConfig",
+        "eks:DeleteNodegroup",
+        "eks:DescribeFargateProfile",
+        "eks:ListFargateProfiles",
+        "eks:CreateFargateProfile",
+        "eks:DeleteFargateProfile"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
